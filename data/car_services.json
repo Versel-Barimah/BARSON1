@@ -2,16 +2,31 @@
         {
                 "name": "Cement",
                 "description": "Lets help you build your home",
-                "image": "/images/cashew-removebg.png"
+                "image": "/images/car_services-removebg.png"
         },
         {
                 "name":"jhghj",
                 "description":"jhgfg jhgfghj jhgh ",
-                "image": "/images/cashew-removebg.png"
+                "image": "/images/car_services-removebg.png"
         },
         {
                 "name":"jhgizgi",
                 "description":"dfgh hjfdfghj jhgfgh",
-                "image": "/images/cashew-removebg.png"
+                "image": "/images/car_services-removebg.png"
+        },
+        {
+                "name": "coke",
+                "description": "Take a chill",
+                "image": "/images/cocacola2.jpg"
+        },
+        {
+                "name":"wine",
+                "description":"Taste like none other",
+                "image": "/images/cocacola2.jpg"
+        },
+        {
+                "name":"malta guiness",
+                "description":"Feel the goodness",
+                "image": "/images/cocacola2.jpg"
         }
 ]

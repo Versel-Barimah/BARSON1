@@ -18,7 +18,12 @@ app.get('/', function(req, res) {
         const fileData = fs.readFileSync(filePath);
         const products = JSON.parse(fileData);
         res.render('index', {
-                beverages: products
+                beverages: products,
+                cashew: products,
+                grains: products,
+                cereals: products,
+                car_services: products,
+                building_products: products
         });
 });
 
