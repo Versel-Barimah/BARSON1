@@ -1,0 +1,21 @@
+<div class="scroll">
+        <% for(grain of grains) { %>
+        
+                <div class="product_tile_card">
+                        <div class="grains_product_tile_card">
+                                <span>
+                                        <div class="product_tile_texts">
+                                                <p><%= grain.name %> </p>
+                                                <span class="store_description store_description_internal"><%= grain.description %> </span>
+                                                <img src="<%= grain.image %> " alt="">
+                                                <div class="card_links">
+                                                        <p><a href="">Learn more</a></p>
+                                                        <a class="buy_link" href="">Buy</a>
+                                                </div>
+                                        </div>
+        
+                                </span>
+                        </div>
+                </div>
+        <% } %>
+</div>

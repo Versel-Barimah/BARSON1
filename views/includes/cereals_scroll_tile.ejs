@@ -1,0 +1,25 @@
+<div class="scroll">
+        <% for (const cereal of cereals) { %>
+                <div class="product_tile_card">
+                        <div class="cereals_product_tile_card">
+                                <span>
+                                        <div class="product_tile_texts">
+                                                <p><%= cereal.name %> </p>
+                                                <span class="store_description store_description_internal"><%= cereal.description %> </span>
+                                                <img src="<%= cereal.image %> " alt="">
+                                                <div class="card_links">
+                                                        <p><a href="">Learn more</a></p>
+                                                        <a class="buy_link" href="">Buy</a>
+                                                </div>
+                                        </div>
+        
+                                </span>
+                        </div>
+                </div>      
+        <% } %> 
+</div>
+
+                
+
+                
+      

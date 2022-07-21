@@ -1,0 +1,39 @@
+main .cashew_page_product_tile_card{
+        background-image: linear-gradient(45deg, rgb(198, 233, 110), rgb(125, 128, 93), rgb(206, 184, 161), rgb(189, 127, 103));
+        height: 40rem;
+        /* padding: 5px 5px 5px 10px; */
+        border-radius: 6px;
+        width: auto;
+        margin: 1rem 0;
+        background-image: url(/images/cashew.jpg);
+        background-size: cover;
+}
+
+main span{
+        display: flex;
+        justify-content: center;
+}
+
+.cashew_page_product_tile_card .cashew_header_text{
+        color: rgb(96, 165, 58);
+}
+
+.cashew_page_card_links{
+        text-align: center;
+        padding: auto;
+}
+
+.cashew_page_product_tile_card .card_links .buy_link{
+        /* color: white;
+        font-size: 2rem;
+        font-weight: 900; */
+        padding: 15px 50px;
+        border-radius: 12px;
+        /* background-color: rgb(238, 176, 76); */
+}
+
+.side{
+        padding-left: 2rem;
+        background-color: aquamarine;
+        width: 12rem;
+}

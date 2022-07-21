@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <%- include('includes/head') %>
+        <link rel="stylesheet" href="/styles/beverages_styles.css">
+        <link rel="stylesheet" href="/styles/grains_styles.css">
+        <link rel="stylesheet" href="/styles/cereals_styles.css">
+        <link rel="stylesheet" href="/styles/cashew_styles.css">
+        <link rel="stylesheet" href="/styles/car_services_styles.css">
+        <link rel="stylesheet" href="/styles/building_products_style.css">
+        <link rel="stylesheet" href="/styles/beverages_banner_and_products_styles.css">
+</head>
+<body>
+        <!-- Navigation bar -->
+        <%- include('includes/header') %>
+
+        <main>
+                <!-- Cashew banner and like products -->
+                <div class="cashew_banner_and_products_bg">
+                        <%- include('includes/cashew_banner') %> 
+        
+                        <div>
+                                <h1>       
+                                        <span class="h1_text">Cashew</span>
+                                        <span class="store_description">Feel the local boom in production</span>
+                                </h1>
+                        </div>
+        
+                        <%- include('includes/cashew_scroll_tiles') %>
+
+                </div>
+
+                <!-- Beverages banner and like products -->
+                <div class="beverages_banner_and_products_bg">
+                        <%- include('includes/beverages_banner') %>
+        
+                        <div>
+                                <h1>       
+                                        <span class="h1_text">Beverages</span>
+                                        <span class="store_description">Find your taste.</span>
+                                </h1>
+                        </div>
+        
+                        <%- include('includes/beverages_scroll_tiles') %>
+
+                </div>
+                
+                <!-- Grains banner and like products -->
+
+                <div class="grains_banner_and_products_bg">
+                        <%- include ('includes/grains_banner') %> 
+        
+                        <div>
+                                <h1>       
+                                        <span class="h1_text">Grains </span>
+                                        <span class="store_description">Lets help get you your seeds.</span>
+                                </h1>
+                        </div>
+                        <%- include ('includes/grains_scroll_tile') %>
+                        
+                                
+
+                </div>
+                
+                <!-- Cereals banner and like products -->
+                <div class="cereals_page_product_tile_card">
+                        <%- include('includes/cereals_banner') %> 
+                
+        
+                        <div>
+                                <h1>       
+                                        <span class="h1_text">Cereals </span>
+                                        <span class="store_description">Lets help you find your seeds.</span>
+                                </h1>
+                        </div>
+        
+                        <%- include('includes/cereals_scroll_tile') %>
+                                
+                </div>
+                
+                <!-- Car services banner and like products -->
+
+                
+
+                <div>
+                        <h1>       
+                                <span class="h1_text">Car Services </span>
+                                <span class="store_description">Because we love your car</span>
+                        </h1>
+                </div>
+
+                <div class="scroll">
+                        <div class="product_tile_card">
+                                <div class="car_services_product_tile_card">
+                                        <span>
+                                                <div class="product_tile_texts">
+                                                        <p>Washing Services</p>
+                                                        <span class="store_description store_description_internal">Feel the local boom with production</span>
+                                                        <img src="/images/cashew-removebg.png" alt="">
+                                                        <div class="card_links">
+                                                                <p><a href="">Learn more</a></p>
+                                                                <a class="buy_link" href="">Buy</a>
+                                                        </div>
+                                                </div>
+                
+                                        </span>
+                                </div>
+                        </div>
+                        <div class="product_tile_card">
+                                <div class="car_services_product_tile_card">
+                                        <span>
+                                                <div class="product_tile_texts">
+                                                        <p>Parts</p>
+                                                        <span class="store_description store_description_internal">Find your favorite tastes</span>
+                                                        <img src="/images/bev-removebg-preview.png" alt="">
+                                                        <div class="card_links">
+                                                                <p><a href="">Learn more</a></p>
+                                                                <a class="buy_link" href="">Buy</a>
+                                                        </div>
+                                                </div>
+                
+                                        </span>
+                                </div>
+                        </div>
+                        <div class="product_tile_card">
+                                <div class="car_services_product_tile_card">
+                                        <span>
+                                                <div class="product_tile_texts">
+                                                        <p>Driving Lessons</p>
+                                                        <span class="store_description store_description_internal">business couldn't get more productive</span>
+                                                        <img src="/images/cereals-removebg.png" alt="">
+                                                        <div class="card_links">
+                                                                <p><a href="">Learn more</a></p>
+                                                                <a class="buy_link" href="">Buy</a>
+                                                        </div>
+                                                </div>
+                
+                                        </span>
+                                </div>
+                        </div>
+                        <div class="product_tile_card">
+                                <div class="car_services_product_tile_card">
+                                        <span>
+                                                <div class="product_tile_texts">
+                                                        <p>Car Lending</p>
+                                                        <span class="store_description store_description_internal">We can make your business 'suck-seed'</span>
+                                                        <img src="/images/grains-removebg.png" alt="">
+                                                        <div class="card_links">
+                                                                <p><a href="">Learn more</a></p>
+                                                                <a class="buy_link" href="">Buy</a>
+                                                        </div>
+                                                </div>
+                
+                                        </span>
+                                </div>
+                        </div>
+                </div>
+                
+                <!-- Building products banner and like products -->
+
+                <div class="building_products_page_product_tile_card">
+                        
+                        <%- include('includes/building_products_banner') %>                                
+                
+
+                        <div>
+                                <h1>       
+                                        <span class="h1_text">Building products </span>
+                                        <span class="store_description">Build your dream home</span>
+                                </h1>
+                        </div>
+
+                        <%- include('includes/building_products_scroll_tiles') %>
+                </div>
+
+        </main>
+
+        <!-- Footer -->
+
+        <%- include('includes/header') %> 
+</body>
+</html>

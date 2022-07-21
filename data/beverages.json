@@ -1,0 +1,17 @@
+[
+        {
+                "name": "coke",
+                "description": "Take a chill",
+                "image": "/images/cocacola2.jpg"
+        },
+        {
+                "name":"wine",
+                "description":"Taste like none other",
+                "image": "/images/cocacola2.jpg"
+        },
+        {
+                "name":"malta guiness",
+                "description":"Feel the goodness",
+                "image": "/images/cocacola2.jpg"
+        }
+]

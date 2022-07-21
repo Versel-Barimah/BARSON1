@@ -1,0 +1,20 @@
+<div class="scroll">
+        <% for (const cashew_product of cashew) { %>
+                <div class="product_tile_card">
+                        <div class="cashew_product_tile_card">
+                                <span>
+                                        <div class="product_tile_texts">
+                                                <p><%= cashew_product.name %></p>
+                                                <span class="store_description store_description_internal"><%= cashew_product.description %></span>
+                                                <img src="<%= cashew_product.image %> " alt="">
+                                                <div class="card_links">
+                                                        <p><a href="">Learn more</a></p>
+                                                        <a class="buy_link" href="">Buy</a>
+                                                </div>
+                                        </div>
+        
+                                </span>
+                        </div>
+                </div>
+        <% } %> 
+</div>

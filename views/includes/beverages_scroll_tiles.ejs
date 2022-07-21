@@ -1,0 +1,25 @@
+<div class="scroll">
+        <% for (const beverage of beverages) { %>
+                <div class="product_tile_card">
+                        <div class="beverages_product_tile_card">
+                                <span>
+                                        <div class="product_tile_texts">
+                                                <p><%= beverage.name %></p>
+                                                <span class="store_description store_description_internal"><%= beverage.description %></span>
+                                                <img src="<%= beverage.image %>" alt="">
+                                                <div class="card_links">
+                                                        <p><a href="">Learn more</a></p>
+                                                        <a class="buy_link" href="">Buy</a>
+                                                </div>
+                                        </div>
+        
+                                </span>
+                        </div>
+                </div>
+        <% } %>
+</div>
+                
+
+                
+                
+                

@@ -1,0 +1,52 @@
+footer{
+        background-color:rgb(247, 247, 247);
+        font-size: .75rem;
+}
+
+footer ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+        padding: 10px;
+
+}
+
+footer span{
+        display: flex;
+        justify-content: space-evenly;
+}
+
+footer div .paragraph_width{
+        margin: 4px;
+}
+
+footer div .footer_bolden_head{
+        font-weight: 600;
+}
+
+span div a{
+        text-decoration: none;
+        /* color: rgb(90, 127, 129); */
+        color: rgb(32, 32, 32);
+}
+
+span div a:hover{
+        color:rgb(55, 55, 55);
+}
+
+footer #copy{
+        margin-top: 60px;
+        text-align: center;
+        padding: 1px;
+        color:rgb(32, 32, 32);
+}
+
+footer #copy a{
+        text-decoration: none;
+        color:rgb(137, 137, 137);
+}
+
+footer #copy a:hover{
+        color:rgb(185, 182, 182);
+}

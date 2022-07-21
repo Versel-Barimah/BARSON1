@@ -1,0 +1,43 @@
+main .grains_page_product_tile_card{
+        /* background-image: linear-gradient(45deg, rgb(198, 233, 110), rgb(125, 128, 93), rgb(206, 184, 161), rgb(189, 127, 103)); */
+        height: 40rem;
+        /* padding: 5px 5px 5px 10px; */
+        border-radius: 6px;
+        width: auto;
+        margin: 1rem 0;
+        background-image: url(/images/grains.jpg);
+        background-size: cover;
+}
+
+main span{
+        display: flex;
+        justify-content: center;
+}
+
+.grains_page_product_tile_card .grains_header_text{
+        color: rgb(122, 158, 16);
+}
+
+.grains_page_card_links{
+        text-align: center;
+        padding: auto;
+}
+
+.side{
+        padding-left: 2rem;
+        background-color: aquamarine;
+        width: 12rem;
+}
+
+.grains_page_product_tile_card .card_links .buy_link{
+        /* color: white;
+        font-size: 2rem;
+        font-weight: 900; */
+        padding: 15px 50px;
+        border-radius: 12px;
+        background-color: rgb(122, 158, 16);
+}
+
+.grains_page_product_tile_card .card_links .buy_link:hover{
+        background-color: rgb(131, 171, 10);
+}

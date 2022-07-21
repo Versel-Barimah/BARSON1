@@ -1,0 +1,20 @@
+<div class="scroll">
+        <% for( car_service of car_services ) { %>
+                <div class="product_tile_card">
+                        <div class="car_services_product_tile_card">
+                                <span>
+                                        <div class="product_tile_texts">
+                                                <p><%= car_service.name %> </p>
+                                                <span class="store_description store_description_internal"><%= car_service.description %> </span>
+                                                <img src="<%= car_service.image %>" alt="">
+                                                <div class="card_links">
+                                                        <p><a href="">Learn more</a></p>
+                                                        <a class="buy_link" href="">Buy</a>
+                                                </div>
+                                        </div>
+        
+                                </span>
+                        </div>
+                </div>
+        <% } %>
+</div>

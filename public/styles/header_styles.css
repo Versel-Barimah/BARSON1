@@ -1,0 +1,53 @@
+
+/* Header styles */
+
+header{
+        background-color: rgba(32, 32, 32, 0.971);
+        /* background-color: transparent; */
+        font-size: .75rem;
+}
+
+header nav, header ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+}
+header h1{
+        /* background-color: rgb(77, 223, 242); */
+        background-color: rgb(185, 182, 182);
+        width: 1.9rem;
+        height: 1.3rem;
+        border-radius: 2px;
+}
+
+header a{
+        text-decoration: none;
+        color: rgb(185, 182, 182);
+}
+
+header a:hover{
+        text-decoration: none;
+        color: rgb(199, 199, 199);
+}
+
+/* logo styles */
+
+.logo_bar_color{
+        /* color: white; */
+        color: #202020;
+}
+
+header h1 span{
+        /* color: rgb(77, 223, 242); */
+        color: rgb(185, 182, 182)
+}
+
+/* Header links' style */
+
+header ul{
+        list-style: none;
+}
+
+header ul li{
+        margin-left: 2.5rem;
+}
